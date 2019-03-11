@@ -8,6 +8,8 @@ import (
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/mailgun/mailgun-go/v3"
 )
 
 type Response struct {
