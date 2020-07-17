@@ -7,6 +7,6 @@ gcloud functions deploy mailgun \
         --env-vars-file env.yaml
         --entry-point Mail \
         --region europe-west1 \
-        --runtime go111 \
+        --runtime go113 \
         --trigger-http
 ```
